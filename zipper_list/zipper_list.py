@@ -1,0 +1,44 @@
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+
+a = Node("a")
+b = Node("b")
+c = Node("c")
+
+a.next = b
+b.next = c
+
+x = Node("x")
+y = Node("y")
+z = Node("z")
+
+x.next = y
+y.next = z
+
+
+def zipper_list(head_1, head_2):
+    tail = head_1
+    current_1 = head_1.next
+    current_2 = head_2
+    count = 0
+    while current_1 is not None and current_2 is not None:
+        if count % 2 == 0:
+            tail.next = current_2
+            current_2 = current_2.next
+        else:
+            tail.next = current_1
+            current_1 = current_1.next
+        tail = tail.next
+        count += 1
+
+    if current_1 is not None:
+        tail.next = current_1
+    if current_2 is not None:
+        tail.next = current_2
+
+    return head_1
+
+print(zipper_list(a, x))    
