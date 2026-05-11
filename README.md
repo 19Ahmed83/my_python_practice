@@ -12,7 +12,7 @@ I use this repo to improve my Python skills step by step:
       ##Structure
 
   - basic/ --> simple tasks
-  - loops/ --> exercises whith loops
+  - loops/ --> exercises with loops
   - functions/ --> functions practice
   - other/ --> mixed tasks
 

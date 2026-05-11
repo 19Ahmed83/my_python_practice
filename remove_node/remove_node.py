@@ -28,4 +28,4 @@ def remove_node(head, target_val):
 
     return head
 
-print(remove_node(a, c))    
+print(remove_node(a, "c"))    

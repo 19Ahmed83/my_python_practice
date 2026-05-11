@@ -4,7 +4,7 @@ class Node():
         self.next = None
 
 a = Node(3)
-b = Node(2)
+b = Node(3)
 c = Node(3)
 d = Node(3)
 
