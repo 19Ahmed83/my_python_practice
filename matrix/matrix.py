@@ -18,4 +18,4 @@ try:
         print() 
         time.sleep(0.1)
 except KeyboardInterrupt:
-    sys.exit()                       
+    sys.exit()  # When Ctrl + C is pressed, end the program.                     

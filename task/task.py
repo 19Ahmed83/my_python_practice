@@ -1,5 +1,3 @@
-
-
 def main():
     text = "May 8, 1975"
     new_text = text.replace(",","").replace(" ","-")

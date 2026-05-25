@@ -16,7 +16,7 @@ def add_todo_list():
 
 add_todo_list()
 print(f"Current List: {tasks}")      
-        
+
 
 
 
