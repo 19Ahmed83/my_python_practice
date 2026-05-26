@@ -1,2 +1,8 @@
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(list[::-2])
+#list comprehension
+print([i*i for i in range(5)])
+
+#set comprehension
+print({i for i in range(5)})
+
+#dictionary comprehension
+print({k: k * k for k in range(5)})
