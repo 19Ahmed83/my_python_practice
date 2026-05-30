@@ -1,0 +1,1 @@
+print("Yes" if all([]) or any([]) else "No")
